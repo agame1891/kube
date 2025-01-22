@@ -1,0 +1,22 @@
+
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: argo-simple-app
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/agame1891/kube.git
+    targetRevision: HEAD
+    path: config
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: argo-simple-app
+  
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+    automated:
+      prune: true
+      selfHeal: true
