@@ -1,0 +1,149 @@
+.container2{
+    width: 90%;
+    height: 668px;
+    display: flex;
+    margin: 30px auto;
+    padding: 30px;
+}
+.kiri,.kanan{
+    margin-top: 5%;
+    width: 50%;
+    height: 580px;
+    margin-right: 10 auto;
+}
+.kiri{
+    background-color: lightblue;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px 0 0 20px;
+    color: white;
+    text-align: center;
+}
+.kiri p{
+    margin-top: 480px;
+}
+.kiri hr{
+    width: 60%;
+}
+.kanan{
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.nav{
+    margin-left: auto;
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+}
+.nav .sign{
+    height: 100px;
+    background-color: lightblue;
+    color: black;
+    border-radius: 0 0 10px 10px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.nav .regis{
+    margin-left: auto;
+    margin-right: 11px;
+    color: black;
+}
+.card{
+    height: 10px;
+    color: black;
+    border-radius: 0 0 10px 10px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.card a{
+    margin-left: auto;
+    margin-right: 20px;
+    color: black;
+}
+.sosmed{
+    display: flex;
+    width: 100px;
+    margin: auto;
+}
+.sosmed img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.col-1{
+    color: #555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: 0 0;
+    padding: 0 5px;
+}
+.text1{
+    font-family: 'Josefin Sans';
+    color: black;
+    margin-top: 70px;
+}
+.wrap {
+    width: 80%;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 30px;
+}
+.validate {
+    position: relative;
+}
+input{
+    border: none;
+    outline: none;
+}
+.box{
+    margin-left: 58px;
+    color: #adadad;
+}
+.btn-login{
+    width: 65%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-right: 57px;
+    margin-bottom: 15px;
+}
+.btn-login1{
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    background: black;
+    top: 0;
+    left: -100%;
+}
+.form-login{
+    border-radius: 30px;
+    color: #fff;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    font-family: 'Josefin Sans';
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 43px;
+}
+button{
+    outline: none !important;
+    border: none;
+    background: 0 0;
+}
+label{
+    font-size: 13px;
+}
